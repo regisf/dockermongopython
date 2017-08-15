@@ -1,0 +1,14 @@
+version: '3'
+
+services:
+  dockermongopython:
+    build: .
+    container_name: dockermongopython
+    image: dockermongopython/basic:latest
+
+    environment:
+      - DATABASE=db
+
+  db:
+   image: 'mongo:latest'
+   hostname: db
