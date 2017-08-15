@@ -6,3 +6,9 @@ simple project to be sure if I understand well all the basics.
 
 I wish it will help you. 
 
+## Usage
+
+In a shell type
+
+`$ docker-compose up --build` 
+
